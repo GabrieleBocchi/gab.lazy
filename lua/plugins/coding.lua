@@ -18,10 +18,10 @@ return {
     end,
   },
 
-  { "zbirenbaum/copilot-cmp", enabled = false },
+  { "zbirenbaum/copilot-cmp", enabled = true },
   {
     "zbirenbaum/copilot.lua",
-    enabled = false, -- disable until I'm feeling like using it
+    enabled = true,
     event = "VeryLazy",
     opts = {
       suggestion = {
@@ -30,6 +30,9 @@ return {
       },
       panel = {
         enabled = true,
+      },
+      filetypes = {
+        ["*"] = true,
       },
     },
   },
