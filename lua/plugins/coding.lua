@@ -21,7 +21,7 @@ return {
     opts = {
       suggestion = {
         enabled = true,
-        auto_trigger = false,
+        auto_trigger = true,
         keymap = {
           accept_line = "<M-L>",
         },
